@@ -2,9 +2,11 @@ import React from "react";
 import portfolio from "../assets/portfolio.jpg";
 // import installNode from "../assets/installNode.jpg";
 import crypto from "../assets/crypto.jpg";
-import memehub from "../assets/blog.jpg";
-import food_nation from "../assets/zomato.jpg";
+import memehub from "../assets/work-in-progress.jpg";
+// import food_nation from "../assets/zomato.jpg";
 import todo from "../assets/todo.jpg";
+import image from "../assets/image.jpg"
+import reading from "../assets/Reading-list.jpg";
 
 const Portfolio = () => {
   
@@ -13,33 +15,39 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: portfolio,
-      demolink: "https://mrinal561.netlify.app/",
-      codelink: "https://github.com/Mrinal81/PORTFOLIO.git",
+      src: memehub,
+      demolink: "",
+      codelink: "https://github.com/Mrinal81/MEMEHUB",
     },
     {
       id: 2,
-      src: memehub,
+      src: portfolio,
       demolink: "",
-      codelink: "https://github.com/Mrinal81/MEMEHUB.git",
+      codelink: "https://github.com/Mrinal81/PORTFOLIO.git",
     },
     {
       id: 3,
       src: crypto,
-      demolink: "",
-      codelink: "https://github.com/Mrinal81/React-Cryptocurrency-App.git",
+      demolink: "https://mrinalcryptoreactwebsite.netlify.app/",
+      codelink: "https://github.com/Mrinal81/React-Cryptocurrency-App",
     },
     {
       id: 4 ,
       src: todo,
-      demolink: "",
-      codelink: "https://github.com/Mrinal81/To-do-list.git",
+      demolink: "https://mrinal-to-do-listwebsite.netlify.app/",
+      codelink: "https://github.com/Mrinal81/To-do-list",
     },
     {
       id: 5,
-      src: food_nation,
-      demolink: "",
-      codelink: "https://github.com/Mrinal81/FOOD_NATION.git",
+      src: image,
+      demolink: "https://mrinalimageprocessing.netlify.app/",
+      codelink: "https://github.com/Mrinal81/API-IMAGE-PROCESSING",
+    },
+    {
+      id: 5,
+      src: reading,
+      demolink: "https://mrinal-reading-list.netlify.app/",
+      codelink: "https://github.com/Mrinal81/reading-list",
     },
   ];
 
