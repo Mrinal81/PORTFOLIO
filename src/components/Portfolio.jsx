@@ -3,10 +3,12 @@ import portfolio from "../assets/portfolio.jpg";
 // import installNode from "../assets/installNode.jpg";
 import crypto from "../assets/crypto.jpg";
 import memehub from "../assets/work-in-progress.jpg";
-// import food_nation from "../assets/zomato.jpg";
+import ECHO from "../assets/ECHO.jpg";
+import Ai from "../assets/Ai.jpg";
 import todo from "../assets/todo.jpg";
 import image from "../assets/image.jpg"
 import reading from "../assets/Reading-list.jpg";
+import shareVerse from "../assets/shareVerse.jpg"
 
 const Portfolio = () => {
   
@@ -48,6 +50,24 @@ const Portfolio = () => {
       src: reading,
       demolink: "https://mrinal-reading-list.netlify.app/",
       codelink: "https://github.com/Mrinal81/reading-list",
+    },
+    {
+      id: 6,
+      src: ECHO,
+      demolink: "https://echo-ecommerce-website.vercel.app/",
+      codelink: "https://github.com/Mrinal81/ECHO",
+    },
+    {
+      id: 7,
+      src: Ai,
+      demolink: "https://ai-image-generating.netlify.app/",
+      codelink: "https://github.com/Mrinal81/AI_IMAGE_GENERATION",
+    },
+    {
+      id: 8,
+      src: shareVerse,
+      demolink: "https://mrinal-shareverse.netlify.app/",
+      codelink: "",
     },
   ];
 

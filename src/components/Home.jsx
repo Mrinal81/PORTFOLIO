@@ -15,9 +15,8 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Hi, I am Mrinal Anand and I am a Fresher. I have made projects on designing and developing software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS, Angular.
+          My name is Mrinal Anand, and I am a recent BTECH in ECE graduate from SRM with a strong passion for web development. As a fresher, I have completed various online courses, personal projects, and an internship to enhance my knowledge and skills in full-stack development.
+          
           </p>
 
           <div>

@@ -14,6 +14,12 @@ import sql from "../assets/SQL.png";
 import mongoDB from "../assets/mongoDB.png";
 import tailwind from "../assets/tailwind.png";
 import linux from "../assets/linux.png";
+import materialUI from "../assets/material_ui.png";
+import redux from "../assets/redux.png";
+
+
+
+
 
 const Skills = () => {
   const techs = [
@@ -49,58 +55,71 @@ const Skills = () => {
     },
     {
       id: 6,
+      src: materialUI,
+      title: "Material UI",
+      style: "shadow-sky-600",
+    },
+    {
+      id: 7,
+      src: redux,
+      title: "Redux",
+      style: "shadow-purple-400",
+    },
+    {
+      id: 8,
       src: express,
       title: "Express",
       style: "shadow-green-400",
     },
     {
-      id: 7,
+      id: 9,
       src: c,
       title: "C++",
       style: "shadow-blue-400",
     },
     {
-      id: 8,
+      id: 10,
       src: node,
       title: "Node",
       style: "shadow-green-600",
     },
     {
-      id: 9,
+      id: 11,
       src: java,
       title: "Java",
       style: "shadow-red-600",
     },
     {
-      id: 10,
+      id: 12,
       src: sql,
       title: "SQL",
       style: "shadow-orange-400",
     },
     {
-      id: 11,
+      id: 13,
       src: mongoDB,
       title: "mongoDB",
       style: "shadow-green-300",
     },
     {
-      id: 12,
+      id: 14,
       src: github,
       title: "Github",
       style: "shadow-white",
     },
     {
-      id: 13,
+      id: 15,
       src: bootstrap,
       title: "Bootstrap",
       style: "shadow-purple-600",
     },
     {
-      id: 14,
+      id: 16,
       src: linux,
       title: "Linux",
       style: "shadow-yellow-600",
     },
+    
   ];
 
   return (
